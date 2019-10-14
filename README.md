@@ -21,7 +21,7 @@ For this exercise we will create a simple dataset that we can learn from. We gen
 
 `a a a a b b b b EOS`, `a a b b EOS`, `a a a a a b b b b b EOS`
 
-where `EOS` is a special character denoting the end of a sequence. The task is to predict the next token $t_n$, i.e. `a`, `b`, `EOS` or the unknown token `UNK` given the sequence of tokens $\{ t_{1}, t_{2}, \dots , t_{n-1}\}$ and we are to process sequences in a sequential manner. As such, the network will need to learn that e.g. 5 `b`s and an `EOS` token will occur following 5 `a`s.
+where `EOS` is a special character denoting the end of a sequence. The task is to predict the next token `t_n`, i.e. `a`, `b`, `EOS` or the unknown token `UNK` given the sequence of tokens `t_1`, `t_2`, `...`, `t_n-1` and we are to process sequences in a sequential manner. As such, the network will need to learn that e.g. 5 `b`s and an `EOS` token will occur following 5 `a`s.
 
 ## Results
 
